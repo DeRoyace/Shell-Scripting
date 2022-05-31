@@ -1,5 +1,6 @@
 echo "Welcome to shell programming..."
-read -p "Enter your name: " name
+# echo is used to display on the terminal
+read -p "Enter your name: " name #takes data input from user & stores it in varibale name.
 echo "Hello $name!"
-# this is a single comment
-# to run shell programs: ./programName.sh
+# this is a single line comment
+# to run shell programs: ./filename.sh
